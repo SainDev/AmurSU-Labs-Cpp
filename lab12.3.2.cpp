@@ -18,7 +18,7 @@ int main(void) {
             system("pause");
             return 0;
         }
-        fseek(f, -100, SEEK_END);
+        fseek(f, sizeof(int)*(-25), SEEK_END);
         printf("\n\n");
         
         for(i=0; i<n; i++) {
